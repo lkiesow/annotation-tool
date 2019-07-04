@@ -32,6 +32,10 @@
             <Export-Package>
               org.opencast.annotation.api;version=${project.version}
             </Export-Package>
+            <Import-Package>
+              org.opencastproject.*;version="${opencast.version}",
+              *
+            </Import-Package>
           </instructions>
         </configuration>
       </plugin>
